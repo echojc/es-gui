@@ -1,0 +1,17 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "outDir": "./build",
+    "sourceMap": true,
+    "newLine": "lf",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "target": "es5",
+    "jsx": "react"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}
