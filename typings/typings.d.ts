@@ -3,3 +3,7 @@
 /// <reference types="whatwg-fetch" />
 
 type Nullable<T> = T | null;
+
+interface Window {
+  state: {},
+}
