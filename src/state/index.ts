@@ -3,11 +3,14 @@ import { computed, observable } from 'mobx';
 import { Query } from './query';
 
 export class State {
-  @observable query: Query;
+  @observable query: Nullable<Query> = null;
   @computed get toES(): {} {
     return {
       query: this.query ? this.query.toES : { match_all: {} },
     };
+  }
+  removeDirectChild(_: Query) {
+    this.query = null;
   }
 }
 

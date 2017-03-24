@@ -3,6 +3,8 @@ import * as ReactDOM from 'react-dom';
 
 import { Root } from './component/Root';
 
+import './index.less';
+
 const rootEl = document.getElementById('root');
 let BaseComponent = <Root />;
 

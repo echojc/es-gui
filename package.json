@@ -17,6 +17,8 @@
     "@types/es6-shim": "^0.31.32",
     "@types/lodash": "^4.14.50",
     "@types/react": "^15.0.18",
+    "@types/react-dnd": "^2.0.32",
+    "@types/react-dnd-html5-backend": "^2.1.7",
     "@types/react-dom": "^0.14.23",
     "@types/whatwg-fetch": "0.0.33",
     "bluebird": "^3.4.7",
@@ -29,6 +31,8 @@
     "moment": "^2.17.1",
     "normalize.css": "^5.0.0",
     "react": "^15.4.2",
+    "react-dnd": "^2.2.4",
+    "react-dnd-html5-backend": "^2.2.4",
     "react-dom": "^15.4.2",
     "whatwg-fetch": "^2.0.1"
   },
